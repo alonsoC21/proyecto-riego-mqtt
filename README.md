@@ -13,6 +13,6 @@ Este proyecto implementa una arquitectura IoT basada en el protocolo MQTT para e
 3. Navegar a la carpeta `/capa_red` y ejecutar `docker compose up -d`.
 
 ## Árbol de Tópicos MQTT
-* Humedad de tierra: `escom/iot/equipoX/jardin/humedad`
-* Nivel de tanque: `escom/iot/equipoX/jardin/deposito/nivel`
-* Control de bomba: `escom/iot/equipoX/jardin/bomba/control`
+* Humedad de tierra: `escom/iot/equipo/jardin/humedad`
+* Nivel de tanque: `escom/iot/equipo/jardin/deposito/nivel`
+* Control de bomba: `escom/iot/equipo/jardin/bomba/control`
