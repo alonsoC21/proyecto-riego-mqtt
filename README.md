@@ -10,7 +10,7 @@ Este proyecto implementa una arquitectura IoT basada en el protocolo MQTT para e
 ## Instrucciones para Replicar el Entorno (Capa de Red)
 1. Instalar Docker y Docker Compose en la Raspberry Pi.
 2. Clonar este repositorio.
-3. Navegar a la carpeta `/capa_red` y ejecutar `docker-compose up -d`.
+3. Navegar a la carpeta `/capa_red` y ejecutar `docker compose up -d`.
 
 ## Árbol de Tópicos MQTT
 * Humedad de tierra: `escom/iot/equipoX/jardin/humedad`
