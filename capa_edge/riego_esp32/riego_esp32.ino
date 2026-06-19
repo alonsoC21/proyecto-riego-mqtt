@@ -19,7 +19,7 @@ unsigned long lastMsg = 0;
 // --- LÓGICA DE AUTOMATIZACIÓN ---
 bool modoManual = false;
 unsigned long tiempoManual = 0;
-const int TIEMPO_PAUSA_MANUAL = 5000; // El switch manual dura 30 segundos
+const int TIEMPO_PAUSA_MANUAL = 5000; // El switch manual dura 5 segundos
 
 // ¡Ajusta estos valores según tus pruebas físicas!
 const int UMBRAL_SECO = 300;       // Si la lectura es MAYOR a esto, la tierra está seca
@@ -38,10 +38,10 @@ void callback(char* topic, byte* payload, unsigned int length) {
     
     if (mensaje == "1" || mensaje == "ON" || mensaje == "true") {
       digitalWrite(pinRele, LOW); // Encender
-      Serial.println(">>> MODO MANUAL: BOMBA ENCENDIDA (Pausa auto de 30s) <<<");
+      Serial.println(">>> MODO MANUAL: BOMBA ENCENDIDA (Pausa auto de 5s) <<<");
     } else if (mensaje == "0" || mensaje == "OFF" || mensaje == "false") {
       digitalWrite(pinRele, HIGH); // Apagar
-      Serial.println(">>> MODO MANUAL: BOMBA APAGADA (Pausa auto de 30s) <<<");
+      Serial.println(">>> MODO MANUAL: BOMBA APAGADA (Pausa auto de 5s) <<<");
     }
   }
 }
