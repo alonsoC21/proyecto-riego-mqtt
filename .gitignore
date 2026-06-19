@@ -1,0 +1,6 @@
+# Ignorar toda la data de Node-RED por defecto
+nodered_data/*
+
+# Excepciones (Archivos que SÍ queremos subir)
+!nodered_data/flows.json
+!nodered_data/package.json
