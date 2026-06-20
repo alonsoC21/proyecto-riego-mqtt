@@ -1,4 +1,4 @@
-# Sistema de Monitoreo y Control IoT mediante MQTT (Smart Garden)
+# Sistema de Monitoreo y Control IoT mediante MQTT
 
 Este proyecto implementa una arquitectura IoT basada en el protocolo MQTT para el monitoreo de humedad de suelo y nivel de agua, con control automático y manual de una bomba de riego.
 
