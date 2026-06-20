@@ -102,7 +102,6 @@ proyecto-riego-mqtt/
 
 **Configuración:**
 
-Edita las siguientes constantes en el archivo `.ino` antes de subir:
 
 ```cpp
 const char* ssid       = "TU_WIFI";
